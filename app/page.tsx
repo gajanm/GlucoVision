@@ -24,7 +24,7 @@ export default function Home() {
         <section className="bg-slate-200 w-full py-16 text-center">
         <h3 className="text-xl font-bold mb-4 text-indigo-500">ABOUT</h3>
         <p className="text-2xl mb-8 max-w-4xl mx-auto">
-          We've developed the first <span className="font-bold">non-invasive</span> and <span className="font-bold">cheap</span> glucose monitoring device. The device is built as a light-weight, durable wathc and it uses near-infrared spectroscopy as well as a KNN machine learning model to accurately track glucose levels.
+          We've developed the first <span className="font-bold">cheap, non-invasive</span> glucose monitoring device. The device is built as a light-weight, durable watch and it uses near-infrared spectroscopy as well as a KNN machine learning model to accurately track glucose levels.
         </p>
         <div className="flex justify-center">
           <div className="relative w-full max-w-xl">
