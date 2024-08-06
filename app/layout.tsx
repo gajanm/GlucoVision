@@ -9,7 +9,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="min-h-screen flex flex-col">
         <header className="p-4">
             <div className="container mx-auto flex justify-between items-center">
-              <h1 className="pl-4 text-4xl text-rose-700 font-bold">GlucoVision</h1>
+              <h1 className="pl-4 text-4xl text-indigo-500 font-bold">GlucoVision</h1>
               <nav>
                 <Link href="/team">
                   <h3 className="font-bold text-black">Our Team</h3>

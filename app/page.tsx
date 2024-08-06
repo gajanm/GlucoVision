@@ -16,15 +16,15 @@ export default function Home() {
             height={300} // specify the height of the image
             className="mx-auto mb-5"
           />
-          <h1 className="text-6xl font-bold">Meet GlucoVision: the world's cheapest glucose monitoring device</h1>
-          <p className="mt-4 text-lg">
+          <h1 className="text-6xl font-bold px-8">Meet GlucoVision: the world's cheapest glucose monitoring device</h1>
+          <p className="mt-4 text-lg px-8">
             GlucoVision is revolutionizing diabetes management with our innovative glucose monitoring system.
           </p>   
         </section>
         <section className="bg-slate-200 w-full py-16 text-center">
-        <h3 className="text-xl font-bold mb-4 text-rose-500">ABOUT</h3>
+        <h3 className="text-xl font-bold mb-4 text-indigo-500">ABOUT</h3>
         <p className="text-2xl mb-8 max-w-4xl mx-auto">
-          We've developed the first <span className="font-bold">accurate</span> and <span className="font-bold">scalable</span> webcam eye-tracking system. It's now publicly available, and we've applied it ourselves to build software for brain health assessment, neuropharma research, and mental wellness monitoring.
+          We've developed the first <span className="font-bold">non-invasive</span> and <span className="font-bold">cheap</span> glucose monitoring device. The device is built as a light-weight, durable wathc and it uses near-infrared spectroscopy as well as a KNN machine learning model to accurately track glucose levels.
         </p>
         <div className="flex justify-center">
           <div className="relative w-full max-w-xl">
@@ -36,6 +36,21 @@ export default function Home() {
               className="rounded-lg"
             />
           </div>
+        </div>
+      </section>
+      <section className="py-16 px-8 text-center">
+        <h3 className="text-3xl font-bold mb-4">Research</h3>
+        <p className="text-xl mb-8">
+          We have conducted extensive research on our technology. You can read our full research paper below.
+        </p>
+        <div className="flex justify-center mt-8">
+          <iframe
+            src="/Diabetes.pdf"
+            width="800"
+            height="600"
+            className="border"
+            title="Research Paper"
+          ></iframe>
         </div>
       </section>
       </main>
