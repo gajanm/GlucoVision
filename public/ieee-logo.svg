@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <path fill="#006699" d="M30 20h140v40H30z"/>
+  <text x="40" y="48" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">IEEE</text>
+  <path fill="#006699" d="M30 65h140v2H30z"/>
+</svg> 
